@@ -1,0 +1,257 @@
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,700,800';
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clearfix:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+body {
+	background-color: #f0efef;
+}
+
+header {
+	background: url("images/header_bg.jpg"); 
+	background-size: cover;
+	background-position: center;
+	height: 700px; 
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+ h1 {
+	font-family: Open Sans, Times, "Arial", sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 26.4px;
+}
+
+h2 {
+	font-family: Open Sans, Times, "Arial", sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 'semi-bold';
+	line-height: 26.4px;
+	text-align: center;
+	color: white;
+}
+
+h3 {
+	font-family: Open Sans, Times, "Arial", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 600;
+	line-height: 26.4px;
+}
+
+h4 {
+	font-family: Open Sans, Times, "Arial", sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 26.4px;
+}
+
+blockquote {
+	font-family: Open Sans, Times, "Arial", sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300i;
+	line-height: 28px;
+}
+
+.benefits {
+	font-size: 13px;
+	padding-left: 50px;
+}
+
+ul {
+    list-style-type: circle;
+    padding-left: 40px;
+    padding-top: 20px;
+    }
+
+li {
+    display: inline block;
+    padding: 0px 0px 0px 10px;
+}
+
+.title {
+	text-align: left;
+	color: white;
+	margin-left: 70px;
+	padding-top: 40px;
+}
+
+.subhead {
+	text-align: center;
+	padding-top: 100px;
+	color: white;
+}
+
+#subhead2 {
+     margin: 0 auto;
+     padding:40px 0px 0px 50px;
+}
+
+.linkbutton {
+	text-decoration: none;
+	font-family: 600;
+	font-size: 24px;
+	font-style: bold;
+	font-color: #033048;
+	background-color: #f9e42e;
+	border-radius: 2px;
+	width: 120px;
+	padding: 20px 60px 20px 60px;
+}
+
+.linkbutton2 {
+	text-decoration: none;
+	font-family: 600;
+	font-size: 24px;
+	font-style: bold;
+	color: white;
+	background-color: #033048;
+	border-radius: 2px;
+	width: 120px;
+	padding: 20px 60px 20px 60px;
+	margin-top: 200px;
+}
+
+.center {
+	text-align: center;
+	width: 100%;
+	margin-top: 100px;
+}
+
+.centeryellow {
+	text-align: center;
+	background-color: #f9e42e;
+	height: 140px;
+	padding-top: 55px;
+}
+
+article {
+	font-family: Open+Sans, Times, "Arial", sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 300;
+	line-height: 24px;
+	padding-top: 20px;
+	padding-left: 50px;
+	padding-bottom: 50px;
+	color: #606161;
+}
+
+#testimonial_bg {
+	background: url("images/testimonial_bg.jpg"); 
+	background-size: cover;
+	background-position: center;
+	height: 300px; 
+	width: 100%;
+	background-repeat: no-repeat;
+}
+
+#testimonial {
+	color: white;
+	text-align: center;
+	width: 50%;
+	margin: 0 auto;
+	padding-top: 120px;
+}
+
+.amanda {
+	font-family: Open+Sans, Times, "Arial", sans-serif;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	line-height: 26.4px;
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+}
+
+.footer {
+	text-align: center;
+}
+
+.footerbg {
+	background-color: #121212;
+	height: 300px;
+}
+
+.bottomrelaxr {
+	font-family: Open+Sans, Times, "Arial", sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 800;
+	color: #f9e42e;
+	padding-top: 50px;
+}
+
+.copyright {
+	color: white;
+	margin-top: 40px;
+}
+
+img {
+	display: inline;
+	color: white;
+}
+
+.footer-social {
+	 text-align: center; 
+	 margin-top:40px;
+}
+
+.footer-social li { 
+	display: inline;
+}
+
+/*.linkbutton {
+	font-family: Open+Sans, Times, "Arial", sans-serif;
+	font-size: 40px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 'semi-bold';
+  	background-color: #f9e42e;
+  	color: #033048;
+  	display: inline-block;
+  	width: 200px;
+  	height: 45px;
+  	border-radius: 5px;
+  	font-size: 14px;
+  	font-weight: 800;
+  	text-align: center;
+ 	margin-top: 50px;
+ 	padding-top: 10px;
+ 	text-decoration: none;
+} */
+
