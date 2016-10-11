@@ -2,7 +2,7 @@ $(document).ready(function(){
 
    console.log("here"); //log to show that it works so far
 
-var city; //declaring a value for city input
+var city; //declaring city input as a variable
 
 	$("#submit-btn").on("click", function(e){ //creating an event function when update button is clicked
 		e.preventDefault();
