@@ -11,31 +11,31 @@ var city; //declaring city input as a variable
 		$("#city-type").val(""); //Reset the user input field after it is submitted
 
 		//changing out photos per user input
-		if(city === "NYC" || city === "NY" || city === "New York"|| city === "New York City" || 
+		if(city === "NYC" || city === "NY" || city === "New York" || city === "New York City" || 
 			city === "nyc" || city === "ny" || city === "new york" || city === "new york city") {
 			$("body").addClass("nyc");
 			$("body").removeClass("sf la austin sydney");
-			$("#city-type").val("Too busy!");
+			$("#city-type").val("Too busy!"); //Reset the user input field after it is submitted to the value given
 		}
 		else if(city === "SF"|| city === "San Francisco" || city === "san francisco" || city === "sf") {
 			$("body").addClass("sf");
 			$("body").removeClass("nyc la austin sydney");
-			$("#city-type").val("Such a beautiful city!");
+			$("#city-type").val("Such a beautiful city!"); //Reset the user input field after it is submitted to the value given
 		}
 		else if(city === "LA" || city === "Los Angeles" || city === "la" || city === "lax" || city === "LAX") {
 			$("body").addClass("la");
 			$("body").removeClass("sf nyc austin sydney");
-			$("#city-type").val("For celebrities only!");
+			$("#city-type").val("For celebrities only!"); //Reset the user input field after it is submitted to the value given
 		}
 		else if(city === "ATX" || city === "Austin" || city === "atx" || city === "austin") {
 			$("body").addClass("austin");
 			$("body").removeClass("sf la nyc sydney");
-			$("#city-type").val("Too hot for me!");
+			$("#city-type").val("Too hot for me!"); //Reset the user input field after it is submitted to the value given
 		}
 		else if(city === "SYD" || city === "Sydney" || city === "syd" || city === "sydney") {
 			$("body").addClass("sydney");
 			$("body").removeClass("sf la austin nyc");
-			$("#city-type").val("Must visit!");
+			$("#city-type").val("Must visit!"); //Reset the user input field after it is submitted to the value given
 
 		}
 	});
